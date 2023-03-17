@@ -25,6 +25,6 @@ for i, mensagem in enumerate(contatos_df['Mensagem']):
         time.sleep(1)
 
     navegador.find_element(
-        By.XPATH, './/*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div/p/span'
+        By.XPATH, '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div/p/span'
     ).send_keys(Keys.ENTER)
 
